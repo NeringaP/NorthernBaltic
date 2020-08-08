@@ -17,7 +17,7 @@ public class Project {
     @ManyToOne
     @JoinColumn(name = "engineer_id")
     private Engineer engineer;
-    @OneToOne(mappedBy = "project", cascade = CascadeType.ALL)
+    @OneToOne(mappedBy = "project")
     private Customer customer;
 
     public Project() {

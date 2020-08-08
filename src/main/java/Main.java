@@ -3,7 +3,6 @@ import domain.HouseModel;
 import domain.Person;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import sample.test2;
 import utils.HibernateUtils;
 
 public class Main {

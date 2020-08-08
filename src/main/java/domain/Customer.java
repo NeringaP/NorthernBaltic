@@ -7,8 +7,8 @@ public class Customer extends Person{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    @OneToOne(cascade = CascadeType.ALL)
-    @PrimaryKeyJoinColumn
+    @OneToOne
+    @JoinColumn(name = "id")
     private Project project;
 
     public Customer() {

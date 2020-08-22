@@ -15,7 +15,7 @@ public class HouseModel {
     private Integer price;
     private Integer area;
     private boolean hasGarage;
-    @OneToMany(fetch = FetchType.EAGER, mappedBy = "housemodel")
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "houseModel")
     private Set<Project> modelProjects = new HashSet<>();
 
     public HouseModel() {
@@ -61,7 +61,7 @@ public class HouseModel {
         this.area = area;
     }
 
-    public boolean isHasGarage() {
+    public boolean getHasGarage() {
         return hasGarage;
     }
 

@@ -2,13 +2,11 @@ package domain;
 
 import javax.persistence.*;
 
+@Entity
+@Table(name = "customer")
 public class Customer extends Person{
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
-    @OneToOne
-    @JoinColumn(name = "id")
+    @OneToOne(mappedBy = "customer")
     private Project project;
 
     public Customer() {
@@ -16,14 +14,6 @@ public class Customer extends Person{
 
     public Customer(String name, String lastName, String phoneNumber) {
         super(name, lastName, phoneNumber);
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
     }
 
     public Project getProject() {
@@ -36,8 +26,13 @@ public class Customer extends Person{
 
     @Override
     public String toString() {
-        return "Customer{" + super.toString() +
-                project.toString() +
-                '}';
+        if(project == null) {
+            return "Customer{" + super.toString() +
+                    '}';
+        } else {
+            return "Customer{" + super.toString() +
+                    project.toString() +
+                    '}';
+        }
     }
 }

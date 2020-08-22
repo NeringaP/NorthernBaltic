@@ -17,7 +17,8 @@ public class Project {
     @ManyToOne
     @JoinColumn(name = "engineer_id")
     private Engineer engineer;
-    @OneToOne(mappedBy = "project")
+    @OneToOne
+    @JoinColumn(name = "customer_id")
     private Customer customer;
 
     public Project() {
@@ -78,15 +79,4 @@ public class Project {
         this.customer = customer;
     }
 
-    @Override
-    public String toString() {
-        return "Project{" +
-                "id=" + id +
-                ", houseModel=" + houseModel +
-                ", address='" + address + '\'' +
-                ", dueDate=" + dueDate +
-                ", " + engineer.toString() +
-                customer.toString() +
-                '}';
-    }
 }

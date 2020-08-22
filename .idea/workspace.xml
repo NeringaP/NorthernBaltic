@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="third commit">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="fourth commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/alert/Alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/EngineerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/HouseModelDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/ProjectDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/EngineerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/HouseModelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/MainMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/alert/Alerts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dao/CustomerDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dao/EngineerDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dao/HouseModelDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dao/ProjectDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/EngineerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/HouseModelService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/MainMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/ProjectService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/ProjectService$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/ProjectService$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/ProjectService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/HibernateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/HibernateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/Project.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/HibernateUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/HibernateUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598118441032</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="third commit">
+      <created>1598121819415</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598121819415</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -322,7 +348,8 @@
     <MESSAGE value="second" />
     <MESSAGE value="second commit" />
     <MESSAGE value="third commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
+    <MESSAGE value="fourth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fourth commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="485" y="84" key="#Main_(1)" timestamp="1598119932375">
@@ -345,26 +372,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596967560025" />
-    <state x="463" y="15" width="970" height="808" key="CommitChangelistDialog2" timestamp="1598118470803">
+    <state x="463" y="15" width="970" height="808" key="CommitChangelistDialog2" timestamp="1598122213406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="463" y="15" width="970" height="808" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598118470803" />
-    <state width="1493" height="364" key="GridCell.Tab.0.bottom" timestamp="1598121363187">
+    <state x="463" y="15" width="970" height="808" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598122213406" />
+    <state x="603" y="312" width="354" height="199" key="Github.CreateGistDialog" timestamp="1598122101097">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="364" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598121363187" />
-    <state width="1493" height="364" key="GridCell.Tab.0.center" timestamp="1598121363187">
+    <state x="603" y="312" width="354" height="199" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1598122101097" />
+    <state width="1493" height="364" key="GridCell.Tab.0.bottom" timestamp="1598121891727">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="364" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598121363187" />
-    <state width="1493" height="364" key="GridCell.Tab.0.left" timestamp="1598121363187">
+    <state width="1493" height="364" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598121891727" />
+    <state width="1493" height="364" key="GridCell.Tab.0.center" timestamp="1598121891727">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="364" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598121363187" />
-    <state width="1493" height="364" key="GridCell.Tab.0.right" timestamp="1598121363187">
+    <state width="1493" height="364" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598121891727" />
+    <state width="1493" height="364" key="GridCell.Tab.0.left" timestamp="1598121891727">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="364" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598121363187" />
+    <state width="1493" height="364" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598121891727" />
+    <state width="1493" height="364" key="GridCell.Tab.0.right" timestamp="1598121891727">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="364" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598121891727" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1598118507350">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -381,10 +412,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598118507350" />
-    <state x="369" y="153" key="Vcs.Push.Dialog.v2" timestamp="1596874976692">
+    <state x="369" y="153" key="Vcs.Push.Dialog.v2" timestamp="1598121830171">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="369" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596874976692" />
+    <state x="369" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598121830171" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1596870135951">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

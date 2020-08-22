@@ -26,13 +26,8 @@ public class Customer extends Person{
 
     @Override
     public String toString() {
-        if(project == null) {
-            return "Customer{" + super.toString() +
-                    '}';
-        } else {
             return "Customer{" + super.toString() +
                     project.toString() +
                     '}';
-        }
     }
 }

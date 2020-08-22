@@ -23,7 +23,7 @@ public class HibernateUtils {
             properties.put(Environment.PASS, "nezinau");
             properties.put(Environment.DIALECT, "org.hibernate.dialect.MySQL5Dialect");
             properties.put(Environment.SHOW_SQL, "true");
-            properties.put(Environment.HBM2DDL_AUTO, "update");
+            properties.put(Environment.HBM2DDL_AUTO, "create");
             configuration.setProperties(properties);
             configuration.addAnnotatedClass(Customer.class);
             configuration.addAnnotatedClass(Engineer.class);

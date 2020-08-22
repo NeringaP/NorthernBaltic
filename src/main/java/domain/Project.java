@@ -79,4 +79,12 @@ public class Project {
         this.customer = customer;
     }
 
+    @Override
+    public String toString() {
+        return "Project{" +
+                "id=" + id +
+                ", address='" + address + '\'' +
+                ", dueDate=" + dueDate + houseModel.toString() + customer.toString() + engineer.toString() +
+                '}';
+    }
 }

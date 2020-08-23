@@ -14,9 +14,8 @@ import services.ProjectService;
 
 public class MainMenuService {
 
-    Alerts alert = new Alerts();
-
-    public void openMainMenu (Stage primaryStage){
+    public static void openMainMenu (Stage primaryStage){
+        Alerts alert = new Alerts();
 
         primaryStage.setTitle("Main menu");
 
